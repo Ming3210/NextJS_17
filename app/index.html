@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="text-[30px]">Hướng dẫn Sử dụng JSON-LD trong HTML</h1>
+    <p>Bài viết này sẽ hướng dẫn bạn cách sử dụng JSON-LD để cấu trúc dữ liệu trên trang web của bạn...</p>
+
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "url": "http://www.example.com",
+          "name": "Unlimited Ball Bearings Corp.",
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+1-401-555-1212",
+            "contactType": "Customer service"
+          }
+        }
+        </script>
+</body>
+</html>
